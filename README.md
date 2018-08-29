@@ -1,5 +1,6 @@
 # Task Scheduler ALPC Vulnerability (VU#906424)
 Credit to SandBoxEscaper and his randomrepo (https://github.com/SandboxEscaper/randomrepo)
+
 To learn more about this vulnerability, visit https://www.kb.cert.org/vuls/id/906424
 
 # Vulnerability Info
