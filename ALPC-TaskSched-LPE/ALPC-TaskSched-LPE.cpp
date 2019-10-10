@@ -14,6 +14,8 @@ This PoC will overwrite a printer related dll and use it as a hijacking vector. 
 #include <xpsprint.h>
 #include <fstream>
 #pragma comment(lib, "rpcrt4.lib")
+#pragma comment(lib, "XpsPrint.lib")
+#pragma warning(disable : 4995)
 using namespace std;
 RPC_STATUS CreateBindingHandle(RPC_BINDING_HANDLE *binding_handle)
 {
